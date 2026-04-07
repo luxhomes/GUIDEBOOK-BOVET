@@ -590,6 +590,7 @@ footer { background: var(--dark); color: rgba(255,255,255,0.45); text-align: cen
     <a href="#explore"    class="nav-link"><span class="icon">🌊</span>Explore</a>
     <a href="#dining"     class="nav-link"><span class="icon">🍽️</span>Dining</a>
     <a href="#groceries"  class="nav-link"><span class="icon">🛒</span>Groceries</a>
+    <a href="#trash"      class="nav-link"><span class="icon">🗑️</span>Trash</a>
     <a href="#safety"     class="nav-link"><span class="icon">🚑</span>Safety</a>
   </div>
 </nav>
@@ -1228,8 +1229,75 @@ footer { background: var(--dark); color: rgba(255,255,255,0.45); text-align: cen
   </div>
 </section>
 
+<!-- ===================== TRASH ===================== -->
+<section id="trash" class="section section-alt">
+  <div class="container">
+    <div class="section-header">
+      <p class="section-tag">🗑️ &nbsp;Trash Management</p>
+      <h2 class="section-title">Trash Bin Management</h2>
+      <p class="section-desc">Help us keep the property clean and the neighborhood happy — a few simple steps go a long way.</p>
+    </div>
+
+    <!-- Collection Schedule Card -->
+    <div style="max-width:480px; margin:0 auto 44px; background:var(--white); border:1px solid var(--gold-light); border-radius:var(--radius); padding:28px 28px 24px; box-shadow:var(--shadow-sm); text-align:center;">
+      <div style="width:48px; height:48px; background:var(--bg-warm); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:22px; margin:0 auto 14px;">📅</div>
+      <div style="font-family:var(--serif); font-size:1.1rem; font-weight:600; color:var(--dark); margin-bottom:18px;">Collection Schedule</div>
+      <div style="display:flex; border:1px solid var(--border); border-radius:12px; overflow:hidden; background:var(--bg-warm);">
+        <div style="flex:1; padding:14px 12px; text-align:center;">
+          <div style="font-size:9px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:var(--gold); margin-bottom:6px;">Trash</div>
+          <div style="font-family:var(--serif); font-size:1.25rem; font-weight:600; color:var(--dark);">Monday</div>
+        </div>
+        <div style="width:1px; background:var(--border); flex-shrink:0;"></div>
+        <div style="flex:1; padding:14px 12px; text-align:center;">
+          <div style="font-size:9px; font-weight:600; letter-spacing:2px; text-transform:uppercase; color:var(--gold); margin-bottom:6px;">Recycling</div>
+          <div style="font-family:var(--serif); font-size:1.25rem; font-weight:600; color:var(--dark);">Monday</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Four instruction cards — single row -->
+    <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:14px;">
+
+      <div style="background:var(--white); border:1px solid var(--gold-light); border-top:2px solid var(--gold); border-radius:14px; padding:18px 16px 20px; box-shadow:var(--shadow-sm);">
+        <div style="display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:10px;background:#F5EDD8;font-size:18px;margin-bottom:12px;">🗑️</div>
+        <div style="font-family:var(--serif);font-size:0.95rem;font-weight:600;color:var(--dark);margin-bottom:10px;">Before Collection Day</div>
+        <ul style="list-style:none;display:flex;flex-direction:column;gap:8px;">
+          <li style="display:flex;align-items:flex-start;gap:8px;font-size:0.82rem;color:var(--text);line-height:1.5;"><span style="color:var(--gold);font-weight:700;flex-shrink:0;">✓</span><span>Place all trash in the appropriate bins</span></li>
+          <li style="display:flex;align-items:flex-start;gap:8px;font-size:0.82rem;color:var(--text);line-height:1.5;"><span style="color:var(--gold);font-weight:700;flex-shrink:0;">✓</span><span>Make sure lids are fully closed to prevent odors and pests</span></li>
+          <li style="display:flex;align-items:flex-start;gap:8px;font-size:0.82rem;color:var(--text);line-height:1.5;"><span style="color:var(--gold);font-weight:700;flex-shrink:0;">✓</span><span>Avoid overfilling bins</span></li>
+        </ul>
+      </div>
+
+      <div style="background:var(--white); border:1px solid var(--gold-light); border-top:2px solid var(--gold); border-radius:14px; padding:18px 16px 20px; box-shadow:var(--shadow-sm);">
+        <div style="display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:10px;background:#E0F2E0;font-size:18px;margin-bottom:12px;">♻️</div>
+        <div style="font-family:var(--serif);font-size:0.95rem;font-weight:600;color:var(--dark);margin-bottom:10px;">Recycling Guidelines</div>
+        <ul style="list-style:none;display:flex;flex-direction:column;gap:8px;">
+          <li style="display:flex;align-items:flex-start;gap:8px;font-size:0.82rem;color:var(--text);line-height:1.5;"><span style="color:var(--gold);font-weight:700;flex-shrink:0;">✓</span><span>Only dispose of approved recyclables (clean paper, cardboard, plastics, and cans)</span></li>
+          <li style="display:flex;align-items:flex-start;gap:8px;font-size:0.82rem;color:var(--text);line-height:1.5;"><span style="color:#C0392B;font-weight:700;flex-shrink:0;">✕</span><span>Do not include food waste or contaminated items</span></li>
+        </ul>
+      </div>
+
+      <div style="background:var(--white); border:1px solid var(--gold-light); border-top:2px solid var(--gold); border-radius:14px; padding:18px 16px 20px; box-shadow:var(--shadow-sm);">
+        <div style="display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:10px;background:#DDEEFF;font-size:18px;margin-bottom:12px;">🪣</div>
+        <div style="font-family:var(--serif);font-size:0.95rem;font-weight:600;color:var(--dark);margin-bottom:10px;">Bin Etiquette</div>
+        <ul style="list-style:none;display:flex;flex-direction:column;gap:8px;">
+          <li style="display:flex;align-items:flex-start;gap:8px;font-size:0.82rem;color:var(--text);line-height:1.5;"><span style="color:#C0392B;font-weight:700;flex-shrink:0;">✕</span><span>Do not leave trash bags outside the bins</span></li>
+          <li style="display:flex;align-items:flex-start;gap:8px;font-size:0.82rem;color:var(--text);line-height:1.5;"><span style="color:#C0392B;font-weight:700;flex-shrink:0;">✕</span><span>Avoid forcing additional trash if bins are already full</span></li>
+        </ul>
+      </div>
+
+      <div style="background:var(--white); border:1px solid var(--gold-light); border-top:2px solid var(--gold); border-radius:14px; padding:18px 16px 20px; box-shadow:var(--shadow-sm);">
+        <div style="display:inline-flex;align-items:center;justify-content:center;width:38px;height:38px;border-radius:10px;background:#FEF3C7;font-size:18px;margin-bottom:12px;">⚠️</div>
+        <div style="font-family:var(--serif);font-size:0.95rem;font-weight:600;color:var(--dark);margin-bottom:10px;">Need Help?</div>
+        <div style="font-size:0.82rem;color:var(--text-muted);line-height:1.6;">If the bins are full, please let us know — we'll take care of it for you.</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 <!-- ===================== SAFETY ===================== -->
-<section id="safety" class="section section-alt">
+<section id="safety" class="section">
   <div class="container">
     <div class="section-header">
       <p class="section-tag">🚑 &nbsp;Safety</p>
@@ -1348,6 +1416,7 @@ footer { background: var(--dark); color: rgba(255,255,255,0.45); text-align: cen
     <a href="#wifi"       class="bnav-link"><span class="icon">📶</span>WiFi</a>
     <a href="#rules"      class="bnav-link"><span class="icon">📋</span>Rules</a>
     <a href="#explore"    class="bnav-link"><span class="icon">🌊</span>Explore</a>
+    <a href="#trash"      class="bnav-link"><span class="icon">🗑️</span>Trash</a>
     <a href="#safety"     class="bnav-link"><span class="icon">🚑</span>Safety</a>
   </div>
 </nav>
